@@ -1,17 +1,70 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# US Bikeshare Data Analysis
 
-### Date created
-Include the date you created this project and README file.
+Explore bike share usage patterns across three major cities in the United States—Chicago, New York City, and Washington, DC—using Python. This project is part of a programming exercise designed to demonstrate the ability to use Python to import data, handle user input, and calculate statistical results.
 
-### Project Title
-Replace the Project Title
+## Project Description
 
-### Description
-Describe what your project is about and what it does
+This project analyzes bikeshare data to uncover usage patterns and user statistics. It includes functionalities to filter data by city, month, and day; calculate descriptive statistics for travel times, station popularity, and user demographics; and allow the user to view raw data upon request.
 
-### Files used
-Include the files used
+## Datasets
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The datasets include randomly selected data for the first six months of 2017 from:
+- Chicago
+- New York City
+- Washington, DC
 
+Each dataset contains the same core six columns:
+- Start Time
+- End Time
+- Trip Duration (in seconds)
+- Start Station
+- End Station
+- User Type (Subscriber or Customer)
+
+Additionally, the Chicago and New York City files also contain the following two columns:
+- Gender
+- Birth Year
+
+## Files
+
+- `chicago.csv`
+- `new_york_city.csv`
+- `washington.csv`
+- `bikeshare.py` (Python script)
+
+## Requirements
+
+- Python 3.x
+- Pandas library
+- NumPy library
+  
+## Installation
+
+To set up your local environment to run the script, follow these steps:
+
+- Install Python 3.x from the official website or using your package manager.
+- Install required Python packages: `pip install pandas numpy`
+
+
+## Features
+
+- **Filter by City, Month, and Day**: Choose the data to analyze by specifying the city, the month, and the day of the week.
+- **Statistical Calculations**: Calculate and display statistics regarding the most common months, days, and start hours for bike rides, the most popular stations, trip duration, and user information like the breakdown of user types, genders, and birth years (where available).
+- **View Raw Data**: Users can opt to view 5 lines of raw data repeatedly until they choose to stop.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have suggestions for adding or changing the code, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+- Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+- Push to the Branch (`git push origin feature/AmazingFeature`)
+- Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
