@@ -37,14 +37,14 @@ Additionally, the Chicago and New York City files also contain the following two
 - Python 3.x
 - Pandas library
 - NumPy library
+  
+## Installation
 
-## How to Run the Script
+To set up your local environment to run the script, follow these steps:
 
-1. Ensure Python and the required libraries are installed on your system.
-2. Clone this repository to your local machine.
-3. Open a terminal in the project directory.
-4. Run the script using the command: `python bikeshare.py`
-5. Follow the on-screen prompts to select the city, month, and day for which you want to see the data.
+- Install Python 3.x from the official website or using your package manager.
+- Install required Python packages: `pip install pandas numpy`
+
 
 ## Features
 
