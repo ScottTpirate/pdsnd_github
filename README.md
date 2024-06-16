@@ -54,7 +54,14 @@ To set up your local environment to run the script, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Please ensure to update tests as appropriate.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have suggestions for adding or changing the code, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+- Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+- Push to the Branch (`git push origin feature/AmazingFeature`)
+- Open a Pull Request
 
 ## License
 
